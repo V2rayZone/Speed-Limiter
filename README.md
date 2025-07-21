@@ -1,126 +1,48 @@
-<div align="center">
-
 **English** | [فارسی](#) | [العربية](#) | [中文](#) | [Español](#) | [Русский](#)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/V2rayZone/speed-limiter/main/assets/logo.svg" alt="V2rayZone Speed Limiter" width="120" height="120">
-</p>
-
-<p align="center">
   <a href="https://github.com/V2rayZone/speed-limiter">
-    <img src="https://img.shields.io/github/v/release/V2rayZone/speed-limiter?style=for-the-badge&logo=github&color=blue&logoColor=white" alt="Version">
+    <img src="https://img.shields.io/github/v/release/V2rayZone/speed-limiter?style=flat-square" alt="Version">
   </a>
   <a href="https://github.com/V2rayZone/speed-limiter/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/V2rayZone/speed-limiter?style=for-the-badge&color=green" alt="License">
+    <img src="https://img.shields.io/github/license/V2rayZone/speed-limiter?style=flat-square" alt="License">
   </a>
   <a href="https://github.com/V2rayZone/speed-limiter/stargazers">
-    <img src="https://img.shields.io/github/stars/V2rayZone/speed-limiter?style=for-the-badge&logo=github&color=yellow&logoColor=white" alt="Stars">
+    <img src="https://img.shields.io/github/stars/V2rayZone/speed-limiter?style=flat-square" alt="Stars">
   </a>
   <a href="https://github.com/V2rayZone/speed-limiter/network/members">
-    <img src="https://img.shields.io/github/forks/V2rayZone/speed-limiter?style=for-the-badge&logo=github&color=orange&logoColor=white" alt="Forks">
+    <img src="https://img.shields.io/github/forks/V2rayZone/speed-limiter?style=flat-square" alt="Forks">
   </a>
 </p>
 
-<h1 align="center">🚀 V2rayZone Speed Limiter</h1>
+# Speed Limiter
 
-<p align="center">
-  <strong>Advanced VPS bandwidth management and traffic control solution</strong>
-</p>
-
-</div>
-
-<p align="center">
-  V2rayZone Speed Limiter is a powerful, open-source traffic control panel designed for managing VPS bandwidth with intelligent speed limiting and monitoring capabilities.
-</p>
+**Speed Limiter** — advanced, open-source bandwidth management tool designed for VPS traffic control. It offers a user-friendly interface for configuring and monitoring network speed limits with both manual and automatic modes.
 
 > **Important**  
-> This project is intended for personal and educational use only. Please comply with local laws and regulations, and do not use it for illegal purposes or in production environments without proper testing.
+> This project is only for personal use, please do not use it for illegal purposes, please do not use it in a production environment.
 
-<!-- 3D Table of Contents -->
-<div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%); padding: 25px; border-radius: 20px; margin: 30px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transform: perspective(1000px) rotateX(2deg);">
-  <h2 style="text-align: center; background: linear-gradient(45deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 2em; margin-bottom: 20px; text-shadow: 0 2px 4px rgba(0,0,0,0.1);">📋 Table of Contents</h2>
-  
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-top: 20px;">
-    <a href="#features" style="display: block; padding: 12px 20px; background: linear-gradient(45deg, #667eea, #764ba2); color: white; text-decoration: none; border-radius: 10px; text-align: center; font-weight: bold; box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3); transform: perspective(500px) rotateX(5deg); transition: all 0.3s ease;">🚀 Features</a>
-    <a href="#quick-start" style="display: block; padding: 12px 20px; background: linear-gradient(45deg, #764ba2, #f093fb); color: white; text-decoration: none; border-radius: 10px; text-align: center; font-weight: bold; box-shadow: 0 5px 15px rgba(118, 75, 162, 0.3); transform: perspective(500px) rotateX(5deg); transition: all 0.3s ease;">⚡ Quick Start</a>
-    <a href="#system-requirements" style="display: block; padding: 12px 20px; background: linear-gradient(45deg, #f093fb, #f5576c); color: white; text-decoration: none; border-radius: 10px; text-align: center; font-weight: bold; box-shadow: 0 5px 15px rgba(240, 147, 251, 0.3); transform: perspective(500px) rotateX(5deg); transition: all 0.3s ease;">💻 System Requirements</a>
-    <a href="#usage" style="display: block; padding: 12px 20px; background: linear-gradient(45deg, #f5576c, #4facfe); color: white; text-decoration: none; border-radius: 10px; text-align: center; font-weight: bold; box-shadow: 0 5px 15px rgba(245, 87, 108, 0.3); transform: perspective(500px) rotateX(5deg); transition: all 0.3s ease;">📖 Usage</a>
-    <a href="#speed-limiting-modes" style="display: block; padding: 12px 20px; background: linear-gradient(45deg, #4facfe, #00f2fe); color: white; text-decoration: none; border-radius: 10px; text-align: center; font-weight: bold; box-shadow: 0 5px 15px rgba(79, 172, 254, 0.3); transform: perspective(500px) rotateX(5deg); transition: all 0.3s ease;">🎛️ Speed Modes</a>
-    <a href="#advanced-configuration" style="display: block; padding: 12px 20px; background: linear-gradient(45deg, #00f2fe, #4facfe); color: white; text-decoration: none; border-radius: 10px; text-align: center; font-weight: bold; box-shadow: 0 5px 15px rgba(0, 242, 254, 0.3); transform: perspective(500px) rotateX(5deg); transition: all 0.3s ease;">⚙️ Configuration</a>
-    <a href="#troubleshooting" style="display: block; padding: 12px 20px; background: linear-gradient(45deg, #667eea, #764ba2); color: white; text-decoration: none; border-radius: 10px; text-align: center; font-weight: bold; box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3); transform: perspective(500px) rotateX(5deg); transition: all 0.3s ease;">🔧 Troubleshooting</a>
-    <a href="#updates-and-maintenance" style="display: block; padding: 12px 20px; background: linear-gradient(45deg, #764ba2, #f093fb); color: white; text-decoration: none; border-radius: 10px; text-align: center; font-weight: bold; box-shadow: 0 5px 15px rgba(118, 75, 162, 0.3); transform: perspective(500px) rotateX(5deg); transition: all 0.3s ease;">🔄 Updates</a>
-  </div>
-</div>
+<p align="center">
+  <strong>A powerful VPS bandwidth management tool that provides intelligent speed limiting with both manual and automatic modes. Perfect for managing server resources and controlling network traffic efficiently.</strong>
+</p>
 
-<style>
-.toc-link:hover {
-  transform: perspective(500px) rotateX(0deg) scale(1.05) !important;
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5) !important;
-}
-</style>
+> **⚠️ Important Disclaimer**  
+> This tool is designed for legitimate server administration and bandwidth management purposes only. Users are responsible for ensuring compliance with their hosting provider's terms of service and applicable laws. The developers are not responsible for any misuse of this software.
 
-<!-- 3D Features Section -->
-<div style="margin: 40px 0; perspective: 1000px;">
-  <h2 style="text-align: center; font-size: 2.5em; background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 30px; text-shadow: 0 5px 10px rgba(0,0,0,0.2); transform: perspective(1000px) rotateX(10deg);">🚀 Features</h2>
-  
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 30px 0;">
-    
-    <!-- Feature Card 1 -->
-    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3); transform: perspective(1000px) rotateY(-5deg) rotateX(5deg); transition: all 0.3s ease; animation: float 6s ease-in-out infinite;">
-      <div style="font-size: 2em; margin-bottom: 15px; text-align: center;">⚡</div>
-      <h3 style="margin: 0 0 10px 0; font-size: 1.3em;">Dual Speed Control Modes</h3>
-      <p style="margin: 0; opacity: 0.9; line-height: 1.5;">Manual speed setting and intelligent auto-calculation based on bandwidth quotas</p>
-    </div>
-    
-    <!-- Feature Card 2 -->
-    <div style="background: linear-gradient(135deg, #764ba2 0%, #f093fb 100%); padding: 25px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(118, 75, 162, 0.3); transform: perspective(1000px) rotateY(5deg) rotateX(5deg); transition: all 0.3s ease; animation: float 6s ease-in-out infinite 0.5s;">
-      <div style="font-size: 2em; margin-bottom: 15px; text-align: center;">🎛️</div>
-      <h3 style="margin: 0 0 10px 0; font-size: 1.3em;">Advanced Traffic Shaping</h3>
-      <p style="margin: 0; opacity: 0.9; line-height: 1.5;">Linux `tc` with HTB queueing discipline and ingress control</p>
-    </div>
-    
-    <!-- Feature Card 3 -->
-    <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 25px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(240, 147, 251, 0.3); transform: perspective(1000px) rotateY(-5deg) rotateX(5deg); transition: all 0.3s ease; animation: float 6s ease-in-out infinite 1s;">
-      <div style="font-size: 2em; margin-bottom: 15px; text-align: center;">📊</div>
-      <h3 style="margin: 0 0 10px 0; font-size: 1.3em;">Real-time Monitoring</h3>
-      <p style="margin: 0; opacity: 0.9; line-height: 1.5;">Network statistics with vnstat integration and data cap enforcement</p>
-    </div>
-    
-    <!-- Feature Card 4 -->
-    <div style="background: linear-gradient(135deg, #f5576c 0%, #4facfe 100%); padding: 25px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(245, 87, 108, 0.3); transform: perspective(1000px) rotateY(5deg) rotateX(5deg); transition: all 0.3s ease; animation: float 6s ease-in-out infinite 1.5s;">
-      <div style="font-size: 2em; margin-bottom: 15px; text-align: center;">🤖</div>
-      <h3 style="margin: 0 0 10px 0; font-size: 1.3em;">Smart Automation</h3>
-      <p style="margin: 0; opacity: 0.9; line-height: 1.5;">Cron-based updates, bandwidth exhaustion detection, and expiry management</p>
-    </div>
-    
-    <!-- Feature Card 5 -->
-    <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 25px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(79, 172, 254, 0.3); transform: perspective(1000px) rotateY(-5deg) rotateX(5deg); transition: all 0.3s ease; animation: float 6s ease-in-out infinite 2s;">
-      <div style="font-size: 2em; margin-bottom: 15px; text-align: center;">🚀</div>
-      <h3 style="margin: 0 0 10px 0; font-size: 1.3em;">Easy Installation</h3>
-      <p style="margin: 0; opacity: 0.9; line-height: 1.5;">One-command setup with automatic dependency management</p>
-    </div>
-    
-    <!-- Feature Card 6 -->
-    <div style="background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%); padding: 25px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(0, 242, 254, 0.3); transform: perspective(1000px) rotateY(5deg) rotateX(5deg); transition: all 0.3s ease; animation: float 6s ease-in-out infinite 2.5s;">
-      <div style="font-size: 2em; margin-bottom: 15px; text-align: center;">🌐</div>
-      <h3 style="margin: 0 0 10px 0; font-size: 1.3em;">Multi-platform Support</h3>
-      <p style="margin: 0; opacity: 0.9; line-height: 1.5;">Ubuntu 18.04+ and Debian 9+ compatibility</p>
-    </div>
-    
-  </div>
-</div>
+---
 
-<style>
-@keyframes float {
-  0%, 100% { transform: perspective(1000px) rotateY(-5deg) rotateX(5deg) translateY(0px); }
-  50% { transform: perspective(1000px) rotateY(-5deg) rotateX(5deg) translateY(-10px); }
-}
+## Table of Contents
 
-.feature-card:hover {
-  transform: perspective(1000px) rotateY(0deg) rotateX(0deg) scale(1.05) !important;
-  box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4) !important;
-}
-</style>
+- [🚀 Features](#features)
+- [⚡ Quick Start](#quick-start)
+- [💻 System Requirements](#system-requirements)
+- [📖 Usage](#usage)
+- [🎛️ Speed Limiting Modes](#speed-limiting-modes)
+- [⚙️ Advanced Configuration](#advanced-configuration)
+- [🔧 Troubleshooting](#troubleshooting)
+- [🔄 Updates and Maintenance](#updates-and-maintenance)
+- [🤝 Contributing](#contributing)
+- [📄 License](#license)
 
 ## Features
 
