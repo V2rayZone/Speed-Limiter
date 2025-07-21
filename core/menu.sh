@@ -14,7 +14,8 @@ PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
-SCRIPT_DIR="/opt/speed-limiter"
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && cd .. && pwd)"
 
 # Source utility functions
 source "$SCRIPT_DIR/utils/network_utils.sh"

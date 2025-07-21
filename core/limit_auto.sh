@@ -14,7 +14,8 @@ CYAN='\033[0;36m'
 PURPLE='\033[0;35m'
 NC='\033[0m' # No Color
 
-SCRIPT_DIR="/opt/speed-limiter"
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && cd .. && pwd)"
 AUTO_CONFIG_FILE="$SCRIPT_DIR/auto_config.conf"
 
 # Source network utilities
@@ -455,3 +456,8 @@ remove_auto_limits() {
         echo -e "${YELLOW}No auto configuration found${NC}"
     fi
 }
+
+# Main execution - only run if script is executed directly
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    setup_auto_limit
+fi
