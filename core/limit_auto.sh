@@ -24,7 +24,7 @@ source "$SCRIPT_DIR/utils/network_utils.sh"
 show_auto_banner() {
     echo -e "${CYAN}"
     echo "╔══════════════════════════════════════════════════════════════╗"
-    echo "║                     Auto Speed Limiter                      ║"
+    echo "║                     Auto Speed Limiter                       ║"
     echo "║           Calculate Speed Based on Bandwidth + Date          ║"
     echo "╚══════════════════════════════════════════════════════════════╝"
     echo -e "${NC}"
