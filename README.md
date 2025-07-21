@@ -1,106 +1,33 @@
 <div align="center">
 
-<!-- Language Selection with 3D Effect -->
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 10px; border-radius: 15px; margin-bottom: 20px; box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3); transform: perspective(1000px) rotateX(5deg);">
-  <a href="#" style="color: white; text-decoration: none; margin: 0 10px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">English</a> |
-  <a href="#" style="color: white; text-decoration: none; margin: 0 10px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">فارسی</a> |
-  <a href="#" style="color: white; text-decoration: none; margin: 0 10px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">العربية</a> |
-  <a href="#" style="color: white; text-decoration: none; margin: 0 10px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">中文</a> |
-  <a href="#" style="color: white; text-decoration: none; margin: 0 10px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Español</a> |
-  <a href="#" style="color: white; text-decoration: none; margin: 0 10px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Русский</a>
-</div>
+**English** | [فارسی](#) | [العربية](#) | [中文](#) | [Español](#) | [Русский](#)
 
-<!-- 3D Animated Logo -->
-<div style="margin: 30px 0; perspective: 1000px;">
-  <div style="transform-style: preserve-3d; animation: rotate3d 6s infinite linear;">
-    <svg width="120" height="120" viewBox="0 0 120 120" style="filter: drop-shadow(0 10px 20px rgba(0,0,0,0.3));">
-      <defs>
-        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-          <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
-          <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
-        </linearGradient>
-        <filter id="glow">
-          <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-          <feMerge> 
-            <feMergeNode in="coloredBlur"/>
-            <feMergeNode in="SourceGraphic"/> 
-          </feMerge>
-        </filter>
-      </defs>
-      <!-- Speed Meter Circle -->
-      <circle cx="60" cy="60" r="45" fill="url(#logoGradient)" filter="url(#glow)" style="animation: pulse 2s infinite;"/>
-      <!-- Speed Indicator -->
-      <path d="M 30 60 Q 60 30 90 60" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" style="animation: dash 3s infinite;"/>
-      <!-- Center Dot -->
-      <circle cx="60" cy="60" r="8" fill="white" style="animation: bounce 1.5s infinite;"/>
-      <!-- Speed Lines -->
-      <line x1="20" y1="40" x2="30" y2="45" stroke="white" stroke-width="2" opacity="0.8"/>
-      <line x1="90" y1="45" x2="100" y2="40" stroke="white" stroke-width="2" opacity="0.8"/>
-      <line x1="20" y1="80" x2="30" y2="75" stroke="white" stroke-width="2" opacity="0.8"/>
-      <line x1="90" y1="75" x2="100" y2="80" stroke="white" stroke-width="2" opacity="0.8"/>
-    </svg>
-  </div>
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/V2rayZone/speed-limiter/main/assets/logo.svg" alt="V2rayZone Speed Limiter" width="120" height="120">
+</p>
 
-<!-- 3D Badges -->
-<div style="display: flex; justify-content: center; gap: 15px; margin: 20px 0; flex-wrap: wrap;">
-  <a href="https://github.com/V2rayZone/speed-limiter" style="transform: perspective(1000px) rotateX(10deg); transition: transform 0.3s;">
-    <img src="https://img.shields.io/github/v/release/V2rayZone/speed-limiter?style=for-the-badge&logo=github&color=blue&logoColor=white" alt="Version" style="box-shadow: 0 8px 16px rgba(0,0,0,0.2); border-radius: 8px;">
+<p align="center">
+  <a href="https://github.com/V2rayZone/speed-limiter">
+    <img src="https://img.shields.io/github/v/release/V2rayZone/speed-limiter?style=for-the-badge&logo=github&color=blue&logoColor=white" alt="Version">
   </a>
-  <a href="https://github.com/V2rayZone/speed-limiter/blob/main/LICENSE" style="transform: perspective(1000px) rotateX(10deg); transition: transform 0.3s;">
-    <img src="https://img.shields.io/github/license/V2rayZone/speed-limiter?style=for-the-badge&color=green" alt="License" style="box-shadow: 0 8px 16px rgba(0,0,0,0.2); border-radius: 8px;">
+  <a href="https://github.com/V2rayZone/speed-limiter/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/V2rayZone/speed-limiter?style=for-the-badge&color=green" alt="License">
   </a>
-  <a href="https://github.com/V2rayZone/speed-limiter/stargazers" style="transform: perspective(1000px) rotateX(10deg); transition: transform 0.3s;">
-    <img src="https://img.shields.io/github/stars/V2rayZone/speed-limiter?style=for-the-badge&logo=github&color=yellow&logoColor=white" alt="Stars" style="box-shadow: 0 8px 16px rgba(0,0,0,0.2); border-radius: 8px;">
+  <a href="https://github.com/V2rayZone/speed-limiter/stargazers">
+    <img src="https://img.shields.io/github/stars/V2rayZone/speed-limiter?style=for-the-badge&logo=github&color=yellow&logoColor=white" alt="Stars">
   </a>
-  <a href="https://github.com/V2rayZone/speed-limiter/network/members" style="transform: perspective(1000px) rotateX(10deg); transition: transform 0.3s;">
-    <img src="https://img.shields.io/github/forks/V2rayZone/speed-limiter?style=for-the-badge&logo=github&color=orange&logoColor=white" alt="Forks" style="box-shadow: 0 8px 16px rgba(0,0,0,0.2); border-radius: 8px;">
+  <a href="https://github.com/V2rayZone/speed-limiter/network/members">
+    <img src="https://img.shields.io/github/forks/V2rayZone/speed-limiter?style=for-the-badge&logo=github&color=orange&logoColor=white" alt="Forks">
   </a>
-</div>
+</p>
 
-<!-- 3D Title -->
-<h1 style="font-size: 3.5em; background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-align: center; margin: 30px 0; text-shadow: 0 5px 10px rgba(0,0,0,0.3); transform: perspective(1000px) rotateX(15deg); animation: titleGlow 3s infinite alternate;">V2rayZone Speed Limiter</h1>
+<h1 align="center">🚀 V2rayZone Speed Limiter</h1>
 
-<!-- 3D Subtitle -->
-<div style="text-align: center; margin: 20px 0; transform: perspective(1000px) rotateX(5deg);">
-  <p style="font-size: 1.3em; font-weight: bold; background: linear-gradient(45deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-shadow: 0 2px 4px rgba(0,0,0,0.2);">Advanced VPS bandwidth management and traffic control solution</p>
-</div>
+<p align="center">
+  <strong>Advanced VPS bandwidth management and traffic control solution</strong>
+</p>
 
 </div>
-
-<!-- CSS Animations -->
-<style>
-@keyframes rotate3d {
-  0% { transform: rotateY(0deg) rotateX(10deg); }
-  100% { transform: rotateY(360deg) rotateX(10deg); }
-}
-
-@keyframes pulse {
-  0%, 100% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.1); opacity: 0.8; }
-}
-
-@keyframes dash {
-  0% { stroke-dasharray: 0 100; }
-  50% { stroke-dasharray: 50 50; }
-  100% { stroke-dasharray: 100 0; }
-}
-
-@keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-5px); }
-}
-
-@keyframes titleGlow {
-  0% { filter: brightness(1) drop-shadow(0 0 10px rgba(102, 126, 234, 0.5)); }
-  100% { filter: brightness(1.2) drop-shadow(0 0 20px rgba(118, 75, 162, 0.8)); }
-}
-
-a:hover img {
-  transform: perspective(1000px) rotateX(0deg) scale(1.05) !important;
-}
-</style>
 
 <p align="center">
   V2rayZone Speed Limiter is a powerful, open-source traffic control panel designed for managing VPS bandwidth with intelligent speed limiting and monitoring capabilities.
