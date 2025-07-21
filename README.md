@@ -56,63 +56,35 @@
 - **Configuration Management**: Backup/restore capabilities with version control
 - **System Integration**: iptables support and systemd service management
 
-<!-- 3D Quick Start Section -->
-<div style="margin: 40px 0; perspective: 1000px;">
-  <h2 style="text-align: center; font-size: 2.5em; background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 30px; text-shadow: 0 5px 10px rgba(0,0,0,0.2); transform: perspective(1000px) rotateX(10deg);">⚡ Quick Start</h2>
-  
-  <!-- Documentation Notice -->
-  <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%); padding: 20px; border-radius: 15px; margin: 20px 0; border-left: 5px solid #667eea; box-shadow: 0 8px 25px rgba(0,0,0,0.1); transform: perspective(1000px) rotateX(3deg);">
-    <p style="margin: 0; font-size: 1.1em; color: #333;">📖 <strong>Full Documentation</strong>: For comprehensive installation and configuration guides, visit our <a href="https://github.com/V2rayZone/speed-limiter/wiki" style="color: #667eea; text-decoration: none; font-weight: bold;">Project Wiki</a></p>
-  </div>
-  
-  <!-- Main Installation Command -->
-  <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 15px; margin: 25px 0; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3); transform: perspective(1000px) rotateX(5deg); transition: all 0.3s ease;">
-    <h3 style="color: white; margin: 0 0 15px 0; font-size: 1.3em; text-align: center;">🚀 One-Click Installation</h3>
-    <div style="background: rgba(0,0,0,0.2); padding: 15px; border-radius: 10px; font-family: 'Courier New', monospace; color: #fff; font-size: 1.1em; text-align: center; border: 2px dashed rgba(255,255,255,0.3);">
-      <code>bash &lt;(curl -Ls https://raw.githubusercontent.com/V2rayZone/speed-limiter/main/install.sh)</code>
-    </div>
-  </div>
-  
-  <!-- Alternative Methods -->
-  <div style="margin: 30px 0;">
-    <h3 style="text-align: center; background: linear-gradient(45deg, #764ba2, #f093fb); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 1.8em; margin-bottom: 25px;">🔧 Alternative Installation Methods</h3>
-    
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
-      
-      <!-- Wget Method -->
-      <div style="background: linear-gradient(135deg, #764ba2 0%, #f093fb 100%); padding: 20px; border-radius: 15px; color: white; box-shadow: 0 8px 25px rgba(118, 75, 162, 0.3); transform: perspective(1000px) rotateY(-3deg) rotateX(3deg); transition: all 0.3s ease;">
-        <h4 style="margin: 0 0 15px 0; font-size: 1.2em; text-align: center;">📥 Using wget</h4>
-        <div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 0.9em; border: 1px dashed rgba(255,255,255,0.3);">
-          <code>wget -O install.sh https://raw.githubusercontent.com/V2rayZone/speed-limiter/main/install.sh && sudo bash install.sh</code>
-        </div>
-      </div>
-      
-      <!-- Manual Method -->
-      <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 15px; color: white; box-shadow: 0 8px 25px rgba(240, 147, 251, 0.3); transform: perspective(1000px) rotateY(3deg) rotateX(3deg); transition: all 0.3s ease;">
-        <h4 style="margin: 0 0 15px 0; font-size: 1.2em; text-align: center;">🛠️ Manual Installation</h4>
-        <div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 0.9em; border: 1px dashed rgba(255,255,255,0.3);">
-          <code># Download and verify<br>wget https://raw.githubusercontent.com/V2rayZone/speed-limiter/main/install.sh<br>chmod +x install.sh<br>sudo ./install.sh</code>
-        </div>
-      </div>
-      
-      <!-- Specific Version -->
-      <div style="background: linear-gradient(135deg, #f5576c 0%, #4facfe 100%); padding: 20px; border-radius: 15px; color: white; box-shadow: 0 8px 25px rgba(245, 87, 108, 0.3); transform: perspective(1000px) rotateY(-3deg) rotateX(3deg); transition: all 0.3s ease;">
-        <h4 style="margin: 0 0 15px 0; font-size: 1.2em; text-align: center;">🏷️ Specific Version</h4>
-        <div style="background: rgba(0,0,0,0.2); padding: 12px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 0.9em; border: 1px dashed rgba(255,255,255,0.3);">
-          <code>VERSION=v1.0.0 && bash &lt;(curl -Ls "https://raw.githubusercontent.com/V2rayZone/speed-limiter/$VERSION/install.sh") $VERSION</code>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</div>
+## Quick Start
 
-<style>
-.install-card:hover {
-  transform: perspective(1000px) rotateY(0deg) rotateX(0deg) scale(1.02) !important;
-  box-shadow: 0 12px 35px rgba(102, 126, 234, 0.4) !important;
-}
-</style>
+> **📖 Full Documentation**: For comprehensive installation and configuration guides, visit our [Project Wiki](https://github.com/V2rayZone/speed-limiter/wiki)
+
+### 🚀 One-Click Installation
+
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/V2rayZone/speed-limiter/main/install.sh)
+```
+
+### 🔧 Alternative Installation Methods
+
+**Using wget:**
+```bash
+wget -O install.sh https://raw.githubusercontent.com/V2rayZone/speed-limiter/main/install.sh && sudo bash install.sh
+```
+
+**Manual Installation:**
+```bash
+# Download and verify
+wget https://raw.githubusercontent.com/V2rayZone/speed-limiter/main/install.sh
+chmod +x install.sh
+sudo ./install.sh
+```
+
+**Specific Version:**
+```bash
+VERSION=v1.0.0 && bash <(curl -Ls "https://raw.githubusercontent.com/V2rayZone/speed-limiter/$VERSION/install.sh") $VERSION
+```
 
 ## Usage
 
@@ -178,16 +150,13 @@ Speed (Mbps) = (Daily Allowance × 8192) / 86400
 
 | Component | Requirement |
 |-----------|-------------|
-| **OS** | Ubuntu 18.04+ / Debian 9+ |
-| **RAM** | 512 MB minimum |
-| **Storage** | 100 MB free space |
-| **Privileges** | Root access (sudo) |
-| **Network** | Standard interface (eth0, ens3, etc.) |
+| **OS** | Ubuntu 18.04+ / Debian 9+ / CentOS 7+ |
+| **Architecture** | x86_64 / ARM64 |
+| **RAM** | 512MB minimum |
+| **Storage** | 100MB free space |
+| **Network** | Root access required |
 
-### Dependencies
-All dependencies are automatically installed:
-- `iproute2`, `vnstat`, `iptables-persistent`
-- `curl`, `wget`, `bc`, `jq`, `cron`
+**Dependencies:** `tc`, `vnstat`, `iptables`, `cron`, `curl/wget`
 
 ## Advanced Configuration
 
@@ -339,119 +308,39 @@ cd speed-limiter && sudo ./install.sh
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<!-- 3D Special Thanks Section -->
-<div style="margin: 50px 0; perspective: 1000px;">
-  <h2 style="text-align: center; font-size: 2.5em; background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 30px; text-shadow: 0 5px 10px rgba(0,0,0,0.2); transform: perspective(1000px) rotateX(10deg);">🙏 A Special Thanks to</h2>
-  
-  <div style="text-align: center; background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%); padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transform: perspective(1000px) rotateX(3deg); transition: all 0.3s ease;">
-    <a href="https://github.com/V2rayZone/speed-limiter/graphs/contributors" style="display: inline-block; transform: perspective(500px) rotateX(5deg); transition: all 0.3s ease;">
-      <img src="https://contrib.rocks/image?repo=V2rayZone/speed-limiter" style="border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.2); filter: brightness(1.1);" />
-    </a>
-  </div>
-</div>
+## A Special Thanks to
 
-<!-- 3D Acknowledgment Section -->
-<div style="margin: 50px 0; perspective: 1000px;">
-  <h2 style="text-align: center; font-size: 2.5em; background: linear-gradient(135deg, #764ba2 0%, #f093fb 50%, #f5576c 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 30px; text-shadow: 0 5px 10px rgba(0,0,0,0.2); transform: perspective(1000px) rotateX(10deg);">🏆 Acknowledgment</h2>
-  
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 30px 0;">
-    
-    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3); transform: perspective(1000px) rotateY(-5deg) rotateX(5deg); transition: all 0.3s ease; animation: float 6s ease-in-out infinite;">
-      <div style="font-size: 2.5em; margin-bottom: 15px; text-align: center;">🐧</div>
-      <h3 style="margin: 0 0 10px 0; font-size: 1.2em; text-align: center;">Linux Traffic Control</h3>
-      <p style="margin: 0; opacity: 0.9; line-height: 1.5; text-align: center;">Advanced traffic shaping capabilities using `tc` and HTB queueing discipline</p>
-    </div>
-    
-    <div style="background: linear-gradient(135deg, #764ba2 0%, #f093fb 100%); padding: 25px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(118, 75, 162, 0.3); transform: perspective(1000px) rotateY(5deg) rotateX(5deg); transition: all 0.3s ease; animation: float 6s ease-in-out infinite 0.5s;">
-      <div style="font-size: 2.5em; margin-bottom: 15px; text-align: center;">📊</div>
-      <h3 style="margin: 0 0 10px 0; font-size: 1.2em; text-align: center;">vnstat</h3>
-      <p style="margin: 0; opacity: 0.9; line-height: 1.5; text-align: center;">Network traffic monitoring and statistics collection</p>
-    </div>
-    
-    <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 25px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(240, 147, 251, 0.3); transform: perspective(1000px) rotateY(-5deg) rotateX(5deg); transition: all 0.3s ease; animation: float 6s ease-in-out infinite 1s;">
-      <div style="font-size: 2.5em; margin-bottom: 15px; text-align: center;">🌐</div>
-      <h3 style="margin: 0 0 10px 0; font-size: 1.2em; text-align: center;">iproute2</h3>
-      <p style="margin: 0; opacity: 0.9; line-height: 1.5; text-align: center;">Modern networking utilities for Linux traffic control</p>
-    </div>
-    
-    <div style="background: linear-gradient(135deg, #f5576c 0%, #4facfe 100%); padding: 25px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(245, 87, 108, 0.3); transform: perspective(1000px) rotateY(5deg) rotateX(5deg); transition: all 0.3s ease; animation: float 6s ease-in-out infinite 1.5s;">
-      <div style="font-size: 2.5em; margin-bottom: 15px; text-align: center;">🐧</div>
-      <h3 style="margin: 0 0 10px 0; font-size: 1.2em; text-align: center;">Ubuntu/Debian Communities</h3>
-      <p style="margin: 0; opacity: 0.9; line-height: 1.5; text-align: center;">Providing stable platforms and package management</p>
-    </div>
-    
-  </div>
-</div>
+<p align="center">
+  <a href="https://github.com/V2rayZone/speed-limiter/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=V2rayZone/speed-limiter" alt="Contributors">
+  </a>
+</p>
 
-<!-- 3D Support Project Section -->
-<div style="margin: 50px 0; perspective: 1000px;">
-  <h2 style="text-align: center; font-size: 2.5em; background: linear-gradient(135deg, #f5576c 0%, #4facfe 50%, #00f2fe 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 30px; text-shadow: 0 5px 10px rgba(0,0,0,0.2); transform: perspective(1000px) rotateX(10deg);">💖 Support project</h2>
-  
-  <div style="text-align: center; margin: 30px 0;">
-    <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%); padding: 25px; border-radius: 20px; display: inline-block; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2); transform: perspective(1000px) rotateX(5deg); transition: all 0.3s ease;">
-      <p style="font-size: 1.3em; margin: 0 0 15px 0; background: linear-gradient(45deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight: bold;">If this project is helpful to you, you may wish to give it a🌟</p>
-      <a href="https://github.com/V2rayZone/speed-limiter/stargazers" style="display: inline-block; transform: perspective(500px) rotateX(3deg); transition: all 0.3s ease;">
-        <img src="https://img.shields.io/github/stars/V2rayZone/speed-limiter?style=social" alt="GitHub stars" style="border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">
-      </a>
-    </div>
-  </div>
-  
-  <!-- Donation Section -->
-  <div style="margin: 40px 0;">
-    <h3 style="text-align: center; background: linear-gradient(45deg, #f5576c, #4facfe); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 1.8em; margin-bottom: 25px;">💰 Crypto Donations</h3>
-    
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 800px; margin: 0 auto;">
-      
-      <!-- USDT -->
-      <div style="background: linear-gradient(135deg, #f5576c 0%, #4facfe 100%); padding: 20px; border-radius: 15px; color: white; box-shadow: 0 8px 25px rgba(245, 87, 108, 0.3); transform: perspective(1000px) rotateY(-3deg) rotateX(3deg); transition: all 0.3s ease;">
-        <div style="font-size: 2em; margin-bottom: 10px; text-align: center;">💎</div>
-        <h4 style="margin: 0 0 10px 0; font-size: 1.1em; text-align: center;">USDT (TRC20)</h4>
-        <div style="background: rgba(0,0,0,0.2); padding: 10px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 0.8em; word-break: break-all; text-align: center; border: 1px dashed rgba(255,255,255,0.3);">
-          <code>TXncxkvhkDWGts487Pjqq1qT9JmwRUz8CC</code>
-        </div>
-      </div>
-      
-      <!-- MATIC -->
-      <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 20px; border-radius: 15px; color: white; box-shadow: 0 8px 25px rgba(79, 172, 254, 0.3); transform: perspective(1000px) rotateY(3deg) rotateX(3deg); transition: all 0.3s ease;">
-        <div style="font-size: 2em; margin-bottom: 10px; text-align: center;">🔷</div>
-        <h4 style="margin: 0 0 10px 0; font-size: 1.1em; text-align: center;">MATIC (Polygon)</h4>
-        <div style="background: rgba(0,0,0,0.2); padding: 10px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 0.8em; word-break: break-all; text-align: center; border: 1px dashed rgba(255,255,255,0.3);">
-          <code>0x41C9548675D044c6Bfb425786C765bc37427256A</code>
-        </div>
-      </div>
-      
-      <!-- LTC -->
-      <div style="background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%); padding: 20px; border-radius: 15px; color: white; box-shadow: 0 8px 25px rgba(0, 242, 254, 0.3); transform: perspective(1000px) rotateY(-3deg) rotateX(3deg); transition: all 0.3s ease;">
-        <div style="font-size: 2em; margin-bottom: 10px; text-align: center;">🪙</div>
-        <h4 style="margin: 0 0 10px 0; font-size: 1.1em; text-align: center;">LTC (Litecoin)</h4>
-        <div style="background: rgba(0,0,0,0.2); padding: 10px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 0.8em; word-break: break-all; text-align: center; border: 1px dashed rgba(255,255,255,0.3);">
-          <code>ltc1q2ach7x6d2zq0n4l0t4zl7d7xe2s6fs7a3vspwv</code>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</div>
+## Acknowledgment
 
-<!-- 3D Stargazers Section -->
-<div style="margin: 50px 0; perspective: 1000px;">
-  <h2 style="text-align: center; font-size: 2.5em; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 50%, #667eea 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 30px; text-shadow: 0 5px 10px rgba(0,0,0,0.2); transform: perspective(1000px) rotateX(10deg);">⭐ Stargazers over Time</h2>
-  
-  <div style="text-align: center; background: linear-gradient(135deg, rgba(79, 172, 254, 0.1) 0%, rgba(0, 242, 254, 0.1) 100%); padding: 30px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transform: perspective(1000px) rotateX(3deg); transition: all 0.3s ease;">
-    <a href="https://github.com/V2rayZone/speed-limiter/stargazers" style="display: inline-block; transform: perspective(500px) rotateX(5deg); transition: all 0.3s ease;">
-      <img src="https://starchart.cc/V2rayZone/speed-limiter.svg" alt="Stargazers over time" style="border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.2); filter: brightness(1.1); max-width: 100%; height: auto;">
-    </a>
-  </div>
-</div>
+- **Linux Traffic Control**: Advanced traffic shaping capabilities using `tc` and HTB queueing discipline
+- **vnstat**: Network traffic monitoring and statistics collection
+- **iproute2**: Modern networking utilities for Linux traffic control
+- **Ubuntu/Debian Communities**: Providing stable platforms and package management
 
-<style>
-.support-card:hover {
-  transform: perspective(1000px) rotateY(0deg) rotateX(0deg) scale(1.05) !important;
-  box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4) !important;
-}
+## Support project
 
-.ack-card:hover {
-  transform: perspective(1000px) rotateY(0deg) rotateX(0deg) scale(1.05) !important;
-  box-shadow: 0 15px 40px rgba(118, 75, 162, 0.4) !important;
-}
-</style>
+If this project is helpful to you, you may wish to give it a🌟
+
+<p align="center">
+  <a href="https://github.com/V2rayZone/speed-limiter/stargazers">
+    <img src="https://img.shields.io/github/stars/V2rayZone/speed-limiter?style=social" alt="GitHub stars">
+  </a>
+</p>
+
+**USDT (TRC20)**: `TXncxkvhkDWGts487Pjqq1qT9JmwRUz8CC`  
+**MATIC (Polygon)**: `0x41C9548675D044c6Bfb425786C765bc37427256A`  
+**LTC (Litecoin)**: `ltc1q2ach7x6d2zq0n4l0t4zl7d7xe2s6fs7a3vspwv`
+
+## Stargazers over Time
+
+<p align="center">
+  <a href="https://github.com/V2rayZone/speed-limiter/stargazers">
+    <img src="https://starchart.cc/V2rayZone/speed-limiter.svg" alt="Stargazers over time">
+  </a>
+</p>
