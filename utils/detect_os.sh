@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# V2RayZone Speed Limiter - OS Detection Utilities
-# Author: V2RayZone
+# V2rayZone Speed Limiter - OS Detection Utilities
+# Author: V2rayZone
 
 # Colors for output
 RED='\033[0;31m'

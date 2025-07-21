@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# V2RayZone Speed Limiter - Network Utilities
-# Author: V2RayZone
+# V2rayZone Speed Limiter - Network Utilities
+# Author: V2rayZone
 
 # Get primary network interface
 get_primary_interface() {

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# V2RayZone Speed Limiter - Update Script
-# Author: V2RayZone
+# V2rayZone Speed Limiter - Update Script
+# Author: V2rayZone
 
 set -e
 
@@ -338,7 +338,7 @@ repair_installation() {
     local bin_path="/usr/bin/speedlimiter"
     cat > "$bin_path" << 'EOF'
 #!/bin/bash
-# V2RayZone Speed Limiter - Main Entry Point
+# V2rayZone Speed Limiter - Main Entry Point
 
 SCRIPT_DIR="/opt/speed-limiter"
 

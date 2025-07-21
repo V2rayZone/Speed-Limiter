@@ -1,8 +1,8 @@
-# V2RayZone Speed Limiter
+# V2rayZone Speed Limiter
 
 🚀 **A powerful and user-friendly Ubuntu VPS Speed Limiter script with automatic bandwidth management**
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/V2RayZone/speed-limiter)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/V2rayZone/speed-limiter)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Ubuntu](https://img.shields.io/badge/ubuntu-18.04%2B-orange.svg)](https://ubuntu.com/)
 [![Debian](https://img.shields.io/badge/debian-9%2B-red.svg)](https://www.debian.org/)
@@ -54,14 +54,14 @@
 ### One-Line Installation
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/V2RayZone/speed-limiter/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/V2rayZone/speed-limiter/main/install.sh)
 ```
 
 ### Manual Installation
 
 ```bash
 # Download the installer
-wget https://raw.githubusercontent.com/V2RayZone/speed-limiter/main/install.sh
+wget https://raw.githubusercontent.com/V2rayZone/speed-limiter/main/install.sh
 
 # Make it executable
 chmod +x install.sh
@@ -84,7 +84,7 @@ speedlimiter
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║                    V2RayZone Speed Limiter                  ║
+║                    V2rayZone Speed Limiter                  ║
 ║                     Network Traffic Control                  ║
 ╚══════════════════════════════════════════════════════════════╝
 
@@ -357,7 +357,7 @@ speedlimiter
 
 ```bash
 # Download latest version
-bash <(curl -Ls https://raw.githubusercontent.com/V2RayZone/speed-limiter/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/V2rayZone/speed-limiter/main/install.sh)
 ```
 
 ### Backup and Restore
@@ -401,7 +401,7 @@ We welcome contributions! Here's how you can help:
 
 ### Reporting Issues
 
-1. Check existing [issues](https://github.com/V2RayZone/speed-limiter/issues)
+1. Check existing [issues](https://github.com/V2rayZone/speed-limiter/issues)
 2. Create a new issue with:
    - OS version and architecture
    - Error messages or logs
@@ -426,7 +426,7 @@ We welcome contributions! Here's how you can help:
 
 ```bash
 # Clone the repository
-git clone https://github.com/V2RayZone/speed-limiter.git
+git clone https://github.com/V2rayZone/speed-limiter.git
 cd speed-limiter
 
 # Test locally
@@ -446,18 +446,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/V2RayZone/speed-limiter/issues)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/V2rayZone/speed-limiter/issues)
 - **Documentation**: This README and inline help
 - **Community**: Share experiences and solutions
 
 ## 🔗 Links
 
-- **GitHub Repository**: https://github.com/V2RayZone/speed-limiter
-- **Installation Script**: https://raw.githubusercontent.com/V2RayZone/speed-limiter/main/install.sh
-- **Latest Release**: https://github.com/V2RayZone/speed-limiter/releases/latest
+- **GitHub Repository**: https://github.com/V2rayZone/speed-limiter
+- **Installation Script**: https://raw.githubusercontent.com/V2rayZone/speed-limiter/main/install.sh
+- **Latest Release**: https://github.com/V2rayZone/speed-limiter/releases/latest
 
 ---
 
-**Made with ❤️ by V2RayZone**
+**Made with ❤️ by V2rayZone**
 
 *Simplifying VPS bandwidth management, one script at a time.*

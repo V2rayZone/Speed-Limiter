@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# V2RayZone Speed Limiter - Manual Speed Limit
-# Author: V2RayZone
+# V2rayZone Speed Limiter - Manual Speed Limit
+# Author: V2rayZone
 
 set -e
 
@@ -100,7 +100,7 @@ save_manual_config() {
     local data_cap=$4
     
     cat > "$CONFIG_FILE" << EOF
-# V2RayZone Speed Limiter - Manual Configuration
+# V2rayZone Speed Limiter - Manual Configuration
 # Generated on: $(date)
 
 INTERFACE="$interface"

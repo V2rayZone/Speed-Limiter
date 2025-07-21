@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# V2RayZone Speed Limiter - Uninstall Script
-# Author: V2RayZone
+# V2rayZone Speed Limiter - Uninstall Script
+# Author: V2rayZone
 
 set -e
 
@@ -39,7 +39,7 @@ warn() {
 show_uninstall_banner() {
     echo -e "${RED}"
     echo "╔══════════════════════════════════════════════════════════════╗"
-    echo "║                    V2RayZone Speed Limiter                  ║"
+    echo "║                    V2rayZone Speed Limiter                  ║"
     echo "║                      Uninstall Script                       ║"
     echo "╚══════════════════════════════════════════════════════════════╝"
     echo -e "${NC}"
@@ -304,7 +304,7 @@ uninstall_speed_limiter() {
     show_removal_items
     
     # Confirmation
-    echo -e "${RED}⚠ WARNING: This will completely remove V2RayZone Speed Limiter!${NC}"
+    echo -e "${RED}⚠ WARNING: This will completely remove V2rayZone Speed Limiter!${NC}"
     echo -e "${YELLOW}All configurations and speed limits will be lost.${NC}"
     echo ""
     echo -e "${CYAN}Are you sure you want to continue?${NC} [y/N]: "
@@ -337,12 +337,12 @@ uninstall_speed_limiter() {
         echo "      Uninstallation Complete!"
         echo "==========================================="
         echo -e "${NC}"
-        echo "V2RayZone Speed Limiter has been completely removed."
+        echo "V2rayZone Speed Limiter has been completely removed."
         echo ""
         echo "Backup created at: $backup_dir"
         echo "You can restore configurations from this backup if needed."
         echo ""
-        echo "Thank you for using V2RayZone Speed Limiter!"
+        echo "Thank you for using V2rayZone Speed Limiter!"
     else
         echo -e "${YELLOW}"
         echo "==========================================="

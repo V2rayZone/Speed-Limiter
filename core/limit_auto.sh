@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# V2RayZone Speed Limiter - Auto Speed Limit
-# Author: V2RayZone
+# V2rayZone Speed Limiter - Auto Speed Limit
+# Author: V2rayZone
 
 set -e
 
@@ -141,7 +141,7 @@ save_auto_config() {
     local calculated_speed=$4
     
     cat > "$AUTO_CONFIG_FILE" << EOF
-# V2RayZone Speed Limiter - Auto Configuration
+# V2rayZone Speed Limiter - Auto Configuration
 # Generated on: $(date)
 
 INTERFACE="$interface"
